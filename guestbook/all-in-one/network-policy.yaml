@@ -29,9 +29,7 @@ spec:
       data:
         spec:
           # select all pods in the namespace
-          podSelector:
-            matchLabels:
-              app: guestbook
+          podSelector: {}
           # deny all traffic
           ingress:
           - ports:
