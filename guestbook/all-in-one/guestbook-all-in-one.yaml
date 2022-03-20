@@ -147,3 +147,5 @@ spec:
           value: env
         ports:
         - containerPort: 90
+
+#lama is learning git
